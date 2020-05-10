@@ -1,0 +1,77 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+h1 {
+    color: #fff;
+    font-size: 64px;
+    text-transform: uppercase;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1 + p {
+    color: #fff;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+
+}
+.wrapper-gray {
+    background-color: #F7F7F7;
+}
+.bg {
+    background-image: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0;
+    text-align: center;
+}
+.stat {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: -200px auto 0;
+}
+.stat-item h2 {
+    font-size: 72px;
+    color: #F7654A;
+}
+.stat-item h3 {
+    font-size: 36px;
+}
+.stat-item p {
+    color: #999999;
+}
+.box-party {
+    display: flex;
+    justify-content: space-between;
+}
+.box-party > div{
+    flex-basis: 32%;
+    max-width: 32%;
+}
+.box-party img {
+    width: 100%;
+}
+.box-party h3 {
+    position: relative;
+    padding-top: 20px;
+}
+.box-party h3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+}
